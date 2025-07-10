@@ -95,7 +95,7 @@ align-items: center;
 .action-1 p{
     font-size: 19px;
     margin-top: 10px;
-    color: rgb(91, 84, 84);
+    color:  #a1a3b4;
 }
 .action-1 button{
 font-size: 14px;
@@ -112,4 +112,38 @@ width: 403px;
 height: 328px;
 border-radius: 48px;
 padding: 19px;
+
 }
+
+/* action end */
+
+ .productive {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #e5e7ff;
+  border-radius:20px ;
+  width: 1140px;
+  height: 306px;
+  margin: auto;
+}
+.productive .productive-header{
+    color: #252432;
+    font-size: 36px;
+    font-weight: bold;
+}
+ .productive1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-wrap: wrap;
+   gap: 100px;
+   margin-top: 50px;
+ }
+ .productive1 h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4F46E5;
+ }
+  .productive1 p{  
+  color:  #a1a3b4;
+  }
