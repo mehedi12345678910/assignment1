@@ -84,9 +84,6 @@ padding: 50px 100px;
 background-color:white ;
 align-items: center;
 }
-.action-1{
-
-}
 .action-1 h1{
     font-size: 42px;
     font-weight: bold;
@@ -116,6 +113,8 @@ padding: 19px;
 }
 
 /* action end */
+
+
 
  .productive {
   text-align: center;
@@ -147,7 +146,41 @@ padding: 19px;
   .productive1 p{  
   color:  #a1a3b4;
   }
+/* card section */
 
+
+.card-title{
+    text-align: center;
+    font-size:42px ;
+}
+.card-box{
+  
+    height:246px ;
+    width: 273px;
+    border-radius: 14px;
+    background-color: aliceblue;
+    margin: auto;
+  text-align: start;
+  padding: 30px;
+}
+.card-had {
+    display: flex;
+    padding: 0 222px;
+}
+.title-img img{
+    border-radius:50%  ;
+    display: flex;
+  
+}
+.card-had .title-img {
+    display: flex;
+    gap: 10px;
+} 
+.card{
+  padding: 50px 0px;
+}
+
+/* card section end */
 
   /*  */
 
@@ -189,40 +222,7 @@ padding: 19px;
     border-radius: 48px;
   }
 
-  /* login form */
 
-  /* .login{
-    display: flex;
-    padding: 40px;
-    width: 100%;
-    gap: 50px;
-    min-height: 100vh;
-  }
-  .login-title{
-   flex: 1;
-   display: flex;
-  align-items: center;
-  justify-content: center;
-  }
-  .login-title h1{
-    font-size: 48px;
-    font-weight: bold;
-    line-height: 1.2;
-  }
-  form{
-    display: flex;
-    flex-direction:column ;
-    gap: 15px;
-  
-  }
-  form input, textarea {
-  padding: 32px 14px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 14px;
-  resize: none;
-  width: 400px;
-} */
 .login {
   display: flex;
   justify-content: center;
